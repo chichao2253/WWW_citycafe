@@ -1,0 +1,13 @@
+<!--index.wxml-->
+
+<block wx:for-items="{{desserts}}">
+  <view class="box-one">
+    <view class="box-divider"></view>
+    <image class="box-image" src="{{item.icon}}" />
+    <view>
+      <text class="box__title">{{item.name}} {{item.name2}}</text>
+      <text class="box__desc">{{item.body}}</text>
+      <text class="box__tag">{{item.cafe.name}}</text>
+    </view>
+  </view>
+</block>
