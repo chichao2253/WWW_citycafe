@@ -1,0 +1,8 @@
+<!--cafes.wxml-->
+<view class="city-picker">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        当前城市：{{array[index]}}
+      </view>
+  </picker>
+</view>

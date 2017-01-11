@@ -1,0 +1,12 @@
+/**cafes.wxss**/
+.picker{
+  padding: 26rpx;
+  background-color: #FFFFFF;
+}
+.city-picker
+{
+  text-align: center;
+  font-size: 36rpx;
+  color:#777777;
+  font-weight: 300;
+}
